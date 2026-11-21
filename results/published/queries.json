@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bm25-cache",
+    "mode": "bm25",
+    "query": "cache latency"
+  },
+  {
+    "id": "term-cache",
+    "mode": "term",
+    "query": "cache"
+  },
+  {
+    "id": "and-cache",
+    "mode": "and",
+    "query": "cache latency"
+  },
+  {
+    "id": "or-journal",
+    "mode": "or",
+    "query": "journal trace"
+  },
+  {
+    "id": "phrase-search",
+    "mode": "phrase",
+    "query": "search engine"
+  },
+  {
+    "id": "phrase-overlap",
+    "mode": "phrase",
+    "query": "echo echo"
+  },
+  {
+    "id": "phrase-repeat",
+    "mode": "phrase",
+    "query": "a a"
+  },
+  {
+    "id": "unicode-street",
+    "mode": "term",
+    "query": "strasse"
+  },
+  {
+    "id": "unicode-ligature",
+    "mode": "term",
+    "query": "ffi"
+  },
+  {
+    "id": "unicode-composed",
+    "mode": "phrase",
+    "query": "ångström units"
+  },
+  {
+    "id": "unicode-sigma",
+    "mode": "term",
+    "query": "οσ"
+  },
+  {
+    "id": "bm25-repeat",
+    "mode": "bm25",
+    "query": "cache cache latency"
+  },
+  {
+    "id": "empty",
+    "mode": "bm25",
+    "query": "..."
+  },
+  {
+    "id": "absent",
+    "mode": "phrase",
+    "query": "absent phrase"
+  },
+  {
+    "id": "no-substring",
+    "mode": "term",
+    "query": "arch"
+  }
+]

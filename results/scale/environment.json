@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-21T02:19:10.147474+00:00",
+  "completed_utc": "2026-11-21T02:19:10.932269+00:00",
+  "python": "3.13.17",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256_lf": {
+    "src/searchlab/core.py": "8a1c68d6ea0fe9d94430fab500f680154d11cbdd510b2d86069208ad240579f3",
+    "scripts/run_scale.py": "130d9517dadc6acbb0e33a4e41f0ee480fe8f575be45037ddc45dbbe848d808a",
+    "scripts/scan_reference.py": "9c85be5c8da1cb7c38aa10c48318ef0b695d6c12aaf1ca7bdc36123702fe4272"
+  },
+  "corpus_seed": 20261121,
+  "order_seed": 9182,
+  "documents": 256,
+  "characters": 84484,
+  "tokens": 13791,
+  "unique_terms": 39,
+  "queries": 10,
+  "timed_calls": 147,
+  "corpus_json_bytes": 88071,
+  "index_json_bytes": 903960,
+  "scope": "Owned deterministic ASCII corpus. Indexed query includes production highlights/explanations and projection; baseline independently regex-tokenizes every original document per query and computes matching spans/scores. Build cost recorded separately, no file I/O or serialization in timers. Seven warmed repetitions, shuffled method order. Different internal work; no universal speedup or relevance-quality claim."
+}

@@ -1,0 +1,16 @@
+query_id,mode,query,candidate_documents,matched_documents,match_occurrences,ranked_ids,median_ns,min_ns,max_ns
+bm25-cache,bm25,cache latency,5,5,11,d09|d10|d01|d11|d03,32100,29200,42100
+term-cache,term,cache,4,4,7,d01|d09|d10|d11,11900,11300,14300
+and-cache,and,cache latency,3,3,8,d01|d09|d10,12500,12300,13700
+or-journal,or,journal trace,2,2,5,d02|d03,9800,9500,10600
+phrase-search,phrase,search engine,2,2,3,d04|d08,10800,10400,12900
+phrase-overlap,phrase,echo echo,1,1,2,d07,7700,7600,9000
+phrase-repeat,phrase,a a,8,1,3,d07,13800,13600,15100
+unicode-street,term,strasse,1,1,2,d05,5700,5500,7200
+unicode-ligature,term,ffi,1,1,1,d05,5000,4800,8700
+unicode-composed,phrase,ångström units,1,1,1,d05,7400,7300,8200
+unicode-sigma,term,οσ,1,1,2,d05,5400,5200,6200
+bm25-repeat,bm25,cache cache latency,5,5,11,d09|d10|d01|d11|d03,30300,29600,35600
+empty,bm25,...,0,0,0,,1900,1800,2700
+absent,phrase,absent phrase,0,0,0,,4900,4800,5900
+no-substring,term,arch,0,0,0,,3200,3100,3800

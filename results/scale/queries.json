@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rare-term",
+    "mode": "term",
+    "query": "needle"
+  },
+  {
+    "id": "common-term",
+    "mode": "term",
+    "query": "cache"
+  },
+  {
+    "id": "rare-and",
+    "mode": "and",
+    "query": "needle cobalt"
+  },
+  {
+    "id": "common-and",
+    "mode": "and",
+    "query": "cache index"
+  },
+  {
+    "id": "rare-or",
+    "mode": "or",
+    "query": "needle absent"
+  },
+  {
+    "id": "common-or",
+    "mode": "or",
+    "query": "cache query index"
+  },
+  {
+    "id": "overlap-phrase",
+    "mode": "phrase",
+    "query": "echo echo"
+  },
+  {
+    "id": "rare-phrase",
+    "mode": "phrase",
+    "query": "needle cobalt"
+  },
+  {
+    "id": "common-phrase",
+    "mode": "phrase",
+    "query": "cache index"
+  },
+  {
+    "id": "bm25",
+    "mode": "bm25",
+    "query": "cache latency"
+  }
+]

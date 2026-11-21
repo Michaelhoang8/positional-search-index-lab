@@ -1,0 +1,1600 @@
+{
+  "corpus": [
+    {
+      "id": "d01",
+      "title": "Cache behavior",
+      "text": "A cache reduces repeated reads. Cache eviction changes hit rates; cache latency still depends on storage and workload."
+    },
+    {
+      "id": "d02",
+      "title": "Database recovery",
+      "text": "A database journal records changes before commit. Recovery replays the journal; isolation and consistency are separate concerns."
+    },
+    {
+      "id": "d03",
+      "title": "Trace records",
+      "text": "A trace links request spans. Logs record events, while latency measurements describe elapsed time. A trace is not a journal."
+    },
+    {
+      "id": "d04",
+      "title": "Retrieval models",
+      "text": "A search engine can rank matching documents. A positional index supports phrase queries; a vector index uses a different representation."
+    },
+    {
+      "id": "d05",
+      "title": "Unicode examples",
+      "text": "Straße and STRASSE share a case-folded token. The ligature ﬃ expands. Ångström units retain their original spans. ΟΣ and ος fold together."
+    },
+    {
+      "id": "d06",
+      "title": "Empty document",
+      "text": ""
+    },
+    {
+      "id": "d07",
+      "title": "Repeated positions",
+      "text": "echo echo echo. a a a a."
+    },
+    {
+      "id": "d08",
+      "title": "Punctuation boundaries",
+      "text": "A search-engine indexes text; search, engine is also token-adjacent. Prefix sea does not equal search."
+    },
+    {
+      "id": "d09",
+      "title": "Equal-score document A",
+      "text": "cache latency"
+    },
+    {
+      "id": "d10",
+      "title": "Equal-score document B",
+      "text": "cache latency"
+    },
+    {
+      "id": "d11",
+      "title": "Code-point offsets",
+      "text": "📦 cache 🧭 routing; a cache can serve local reads."
+    },
+    {
+      "id": "d12",
+      "title": "Numeric tokens",
+      "text": "Metrics: 99.9 percent; s3_bucket and s3-bucket split at punctuation. Can't becomes can and t."
+    }
+  ],
+  "results": [
+    {
+      "id": "bm25-cache",
+      "mode": "bm25",
+      "query": "cache latency",
+      "terms": [
+        "cache",
+        "latency"
+      ],
+      "candidate_ids": [
+        "d01",
+        "d03",
+        "d09",
+        "d10",
+        "d11"
+      ],
+      "hits": [
+        {
+          "doc_id": "d09",
+          "score": 3.2368210187331368,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            }
+          ]
+        },
+        {
+          "doc_id": "d10",
+          "score": 3.2368210187331368,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            }
+          ]
+        },
+        {
+          "doc_id": "d01",
+          "score": 2.4341076288657497,
+          "matches": [
+            {
+              "positions": [
+                1
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                5
+              ],
+              "start": 32,
+              "end": 37
+            },
+            {
+              "positions": [
+                10
+              ],
+              "start": 66,
+              "end": 71
+            },
+            {
+              "positions": [
+                11
+              ],
+              "start": 72,
+              "end": 79
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              32,
+              37
+            ],
+            [
+              66,
+              71
+            ],
+            [
+              72,
+              79
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 3,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 18,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.3157894736842106,
+              "saturation": 1.4413793103448276,
+              "contribution": 1.5291188950566887
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 18,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.3157894736842106,
+              "saturation": 0.8530612244897959,
+              "contribution": 0.9049887338090608
+            }
+          ]
+        },
+        {
+          "doc_id": "d11",
+          "score": 1.627319191069504,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                3
+              ],
+              "start": 21,
+              "end": 26
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              21,
+              26
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 2,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 8,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.7236842105263158,
+              "saturation": 1.5339449541284407,
+              "contribution": 1.627319191069504
+            },
+            {
+              "term": "latency",
+              "tf": 0,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 8,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.7236842105263158,
+              "saturation": 0.0,
+              "contribution": 0.0
+            }
+          ]
+        },
+        {
+          "doc_id": "d03",
+          "score": 0.8577262660859569,
+          "matches": [
+            {
+              "positions": [
+                9
+              ],
+              "start": 55,
+              "end": 62
+            }
+          ],
+          "highlights": [
+            [
+              55,
+              62
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 0,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 20,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.4342105263157896,
+              "saturation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 20,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.4342105263157896,
+              "saturation": 0.8085106382978723,
+              "contribution": 0.8577262660859569
+            }
+          ]
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "term-cache",
+      "mode": "term",
+      "query": "cache",
+      "terms": [
+        "cache"
+      ],
+      "candidate_ids": [
+        "d01",
+        "d09",
+        "d10",
+        "d11"
+      ],
+      "hits": [
+        {
+          "doc_id": "d01",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                1
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                5
+              ],
+              "start": 32,
+              "end": 37
+            },
+            {
+              "positions": [
+                10
+              ],
+              "start": 66,
+              "end": 71
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              32,
+              37
+            ],
+            [
+              66,
+              71
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d09",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d10",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d11",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                3
+              ],
+              "start": 21,
+              "end": 26
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              21,
+              26
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "and-cache",
+      "mode": "and",
+      "query": "cache latency",
+      "terms": [
+        "cache",
+        "latency"
+      ],
+      "candidate_ids": [
+        "d01",
+        "d09",
+        "d10"
+      ],
+      "hits": [
+        {
+          "doc_id": "d01",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                1
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                5
+              ],
+              "start": 32,
+              "end": 37
+            },
+            {
+              "positions": [
+                10
+              ],
+              "start": 66,
+              "end": 71
+            },
+            {
+              "positions": [
+                11
+              ],
+              "start": 72,
+              "end": 79
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              32,
+              37
+            ],
+            [
+              66,
+              71
+            ],
+            [
+              72,
+              79
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d09",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d10",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "or-journal",
+      "mode": "or",
+      "query": "journal trace",
+      "terms": [
+        "journal",
+        "trace"
+      ],
+      "candidate_ids": [
+        "d02",
+        "d03"
+      ],
+      "hits": [
+        {
+          "doc_id": "d02",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                2
+              ],
+              "start": 11,
+              "end": 18
+            },
+            {
+              "positions": [
+                10
+              ],
+              "start": 71,
+              "end": 78
+            }
+          ],
+          "highlights": [
+            [
+              11,
+              18
+            ],
+            [
+              71,
+              78
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d03",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                1
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                15
+              ],
+              "start": 101,
+              "end": 106
+            },
+            {
+              "positions": [
+                19
+              ],
+              "start": 116,
+              "end": 123
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              101,
+              106
+            ],
+            [
+              116,
+              123
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "phrase-search",
+      "mode": "phrase",
+      "query": "search engine",
+      "terms": [
+        "search",
+        "engine"
+      ],
+      "candidate_ids": [
+        "d04",
+        "d08"
+      ],
+      "hits": [
+        {
+          "doc_id": "d04",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                1,
+                2
+              ],
+              "start": 2,
+              "end": 15
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              15
+            ]
+          ],
+          "explanation": []
+        },
+        {
+          "doc_id": "d08",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                1,
+                2
+              ],
+              "start": 2,
+              "end": 15
+            },
+            {
+              "positions": [
+                5,
+                6
+              ],
+              "start": 30,
+              "end": 44
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              15
+            ],
+            [
+              30,
+              44
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "phrase-overlap",
+      "mode": "phrase",
+      "query": "echo echo",
+      "terms": [
+        "echo",
+        "echo"
+      ],
+      "candidate_ids": [
+        "d07"
+      ],
+      "hits": [
+        {
+          "doc_id": "d07",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0,
+                1
+              ],
+              "start": 0,
+              "end": 9
+            },
+            {
+              "positions": [
+                1,
+                2
+              ],
+              "start": 5,
+              "end": 14
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              14
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "phrase-repeat",
+      "mode": "phrase",
+      "query": "a a",
+      "terms": [
+        "a",
+        "a"
+      ],
+      "candidate_ids": [
+        "d01",
+        "d02",
+        "d03",
+        "d04",
+        "d05",
+        "d07",
+        "d08",
+        "d11"
+      ],
+      "hits": [
+        {
+          "doc_id": "d07",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                3,
+                4
+              ],
+              "start": 16,
+              "end": 19
+            },
+            {
+              "positions": [
+                4,
+                5
+              ],
+              "start": 18,
+              "end": 21
+            },
+            {
+              "positions": [
+                5,
+                6
+              ],
+              "start": 20,
+              "end": 23
+            }
+          ],
+          "highlights": [
+            [
+              16,
+              23
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "unicode-street",
+      "mode": "term",
+      "query": "strasse",
+      "terms": [
+        "strasse"
+      ],
+      "candidate_ids": [
+        "d05"
+      ],
+      "hits": [
+        {
+          "doc_id": "d05",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 6
+            },
+            {
+              "positions": [
+                2
+              ],
+              "start": 11,
+              "end": 18
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              6
+            ],
+            [
+              11,
+              18
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "unicode-ligature",
+      "mode": "term",
+      "query": "ffi",
+      "terms": [
+        "ffi"
+      ],
+      "candidate_ids": [
+        "d05"
+      ],
+      "hits": [
+        {
+          "doc_id": "d05",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                10
+              ],
+              "start": 59,
+              "end": 60
+            }
+          ],
+          "highlights": [
+            [
+              59,
+              60
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "unicode-composed",
+      "mode": "phrase",
+      "query": "ångström units",
+      "terms": [
+        "ångström",
+        "units"
+      ],
+      "candidate_ids": [
+        "d05"
+      ],
+      "hits": [
+        {
+          "doc_id": "d05",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                12,
+                13
+              ],
+              "start": 70,
+              "end": 86
+            }
+          ],
+          "highlights": [
+            [
+              70,
+              86
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "unicode-sigma",
+      "mode": "term",
+      "query": "οσ",
+      "terms": [
+        "οσ"
+      ],
+      "candidate_ids": [
+        "d05"
+      ],
+      "hits": [
+        {
+          "doc_id": "d05",
+          "score": null,
+          "matches": [
+            {
+              "positions": [
+                18
+              ],
+              "start": 116,
+              "end": 118
+            },
+            {
+              "positions": [
+                20
+              ],
+              "start": 123,
+              "end": 125
+            }
+          ],
+          "highlights": [
+            [
+              116,
+              118
+            ],
+            [
+              123,
+              125
+            ]
+          ],
+          "explanation": []
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "bm25-repeat",
+      "mode": "bm25",
+      "query": "cache cache latency",
+      "terms": [
+        "cache",
+        "cache",
+        "latency"
+      ],
+      "candidate_ids": [
+        "d01",
+        "d03",
+        "d09",
+        "d10",
+        "d11"
+      ],
+      "hits": [
+        {
+          "doc_id": "d09",
+          "score": 3.2368210187331368,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            }
+          ]
+        },
+        {
+          "doc_id": "d10",
+          "score": 3.2368210187331368,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 0,
+              "end": 5
+            },
+            {
+              "positions": [
+                1
+              ],
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "highlights": [
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 2,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.368421052631579,
+              "saturation": 1.5255474452554745,
+              "contribution": 1.6184105093665684
+            }
+          ]
+        },
+        {
+          "doc_id": "d01",
+          "score": 2.4341076288657497,
+          "matches": [
+            {
+              "positions": [
+                1
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                5
+              ],
+              "start": 32,
+              "end": 37
+            },
+            {
+              "positions": [
+                10
+              ],
+              "start": 66,
+              "end": 71
+            },
+            {
+              "positions": [
+                11
+              ],
+              "start": 72,
+              "end": 79
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              32,
+              37
+            ],
+            [
+              66,
+              71
+            ],
+            [
+              72,
+              79
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 3,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 18,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.3157894736842106,
+              "saturation": 1.4413793103448276,
+              "contribution": 1.5291188950566887
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 18,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.3157894736842106,
+              "saturation": 0.8530612244897959,
+              "contribution": 0.9049887338090608
+            }
+          ]
+        },
+        {
+          "doc_id": "d11",
+          "score": 1.627319191069504,
+          "matches": [
+            {
+              "positions": [
+                0
+              ],
+              "start": 2,
+              "end": 7
+            },
+            {
+              "positions": [
+                3
+              ],
+              "start": 21,
+              "end": 26
+            }
+          ],
+          "highlights": [
+            [
+              2,
+              7
+            ],
+            [
+              21,
+              26
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 2,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 8,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.7236842105263158,
+              "saturation": 1.5339449541284407,
+              "contribution": 1.627319191069504
+            },
+            {
+              "term": "latency",
+              "tf": 0,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 8,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 0.7236842105263158,
+              "saturation": 0.0,
+              "contribution": 0.0
+            }
+          ]
+        },
+        {
+          "doc_id": "d03",
+          "score": 0.8577262660859569,
+          "matches": [
+            {
+              "positions": [
+                9
+              ],
+              "start": 55,
+              "end": 62
+            }
+          ],
+          "highlights": [
+            [
+              55,
+              62
+            ]
+          ],
+          "explanation": [
+            {
+              "term": "cache",
+              "tf": 0,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 20,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.4342105263157896,
+              "saturation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "term": "latency",
+              "tf": 1,
+              "df": 4,
+              "document_count": 12,
+              "document_length": 20,
+              "average_length": 12.666666666666666,
+              "idf": 1.0608719606852626,
+              "length_normalization": 1.4342105263157896,
+              "saturation": 0.8085106382978723,
+              "contribution": 0.8577262660859569
+            }
+          ]
+        }
+      ],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "empty",
+      "mode": "bm25",
+      "query": "...",
+      "terms": [],
+      "candidate_ids": [],
+      "hits": [],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "absent",
+      "mode": "phrase",
+      "query": "absent phrase",
+      "terms": [
+        "absent",
+        "phrase"
+      ],
+      "candidate_ids": [],
+      "hits": [],
+      "k1": 1.2,
+      "b": 0.75
+    },
+    {
+      "id": "no-substring",
+      "mode": "term",
+      "query": "arch",
+      "terms": [
+        "arch"
+      ],
+      "candidate_ids": [],
+      "hits": [],
+      "k1": 1.2,
+      "b": 0.75
+    }
+  ],
+  "summaries": [
+    {
+      "query_id": "bm25-cache",
+      "mode": "bm25",
+      "query": "cache latency",
+      "candidate_documents": "5",
+      "matched_documents": "5",
+      "match_occurrences": "11",
+      "ranked_ids": "d09|d10|d01|d11|d03",
+      "median_ns": "32100",
+      "min_ns": "29200",
+      "max_ns": "42100"
+    },
+    {
+      "query_id": "term-cache",
+      "mode": "term",
+      "query": "cache",
+      "candidate_documents": "4",
+      "matched_documents": "4",
+      "match_occurrences": "7",
+      "ranked_ids": "d01|d09|d10|d11",
+      "median_ns": "11900",
+      "min_ns": "11300",
+      "max_ns": "14300"
+    },
+    {
+      "query_id": "and-cache",
+      "mode": "and",
+      "query": "cache latency",
+      "candidate_documents": "3",
+      "matched_documents": "3",
+      "match_occurrences": "8",
+      "ranked_ids": "d01|d09|d10",
+      "median_ns": "12500",
+      "min_ns": "12300",
+      "max_ns": "13700"
+    },
+    {
+      "query_id": "or-journal",
+      "mode": "or",
+      "query": "journal trace",
+      "candidate_documents": "2",
+      "matched_documents": "2",
+      "match_occurrences": "5",
+      "ranked_ids": "d02|d03",
+      "median_ns": "9800",
+      "min_ns": "9500",
+      "max_ns": "10600"
+    },
+    {
+      "query_id": "phrase-search",
+      "mode": "phrase",
+      "query": "search engine",
+      "candidate_documents": "2",
+      "matched_documents": "2",
+      "match_occurrences": "3",
+      "ranked_ids": "d04|d08",
+      "median_ns": "10800",
+      "min_ns": "10400",
+      "max_ns": "12900"
+    },
+    {
+      "query_id": "phrase-overlap",
+      "mode": "phrase",
+      "query": "echo echo",
+      "candidate_documents": "1",
+      "matched_documents": "1",
+      "match_occurrences": "2",
+      "ranked_ids": "d07",
+      "median_ns": "7700",
+      "min_ns": "7600",
+      "max_ns": "9000"
+    },
+    {
+      "query_id": "phrase-repeat",
+      "mode": "phrase",
+      "query": "a a",
+      "candidate_documents": "8",
+      "matched_documents": "1",
+      "match_occurrences": "3",
+      "ranked_ids": "d07",
+      "median_ns": "13800",
+      "min_ns": "13600",
+      "max_ns": "15100"
+    },
+    {
+      "query_id": "unicode-street",
+      "mode": "term",
+      "query": "strasse",
+      "candidate_documents": "1",
+      "matched_documents": "1",
+      "match_occurrences": "2",
+      "ranked_ids": "d05",
+      "median_ns": "5700",
+      "min_ns": "5500",
+      "max_ns": "7200"
+    },
+    {
+      "query_id": "unicode-ligature",
+      "mode": "term",
+      "query": "ffi",
+      "candidate_documents": "1",
+      "matched_documents": "1",
+      "match_occurrences": "1",
+      "ranked_ids": "d05",
+      "median_ns": "5000",
+      "min_ns": "4800",
+      "max_ns": "8700"
+    },
+    {
+      "query_id": "unicode-composed",
+      "mode": "phrase",
+      "query": "ångström units",
+      "candidate_documents": "1",
+      "matched_documents": "1",
+      "match_occurrences": "1",
+      "ranked_ids": "d05",
+      "median_ns": "7400",
+      "min_ns": "7300",
+      "max_ns": "8200"
+    },
+    {
+      "query_id": "unicode-sigma",
+      "mode": "term",
+      "query": "οσ",
+      "candidate_documents": "1",
+      "matched_documents": "1",
+      "match_occurrences": "2",
+      "ranked_ids": "d05",
+      "median_ns": "5400",
+      "min_ns": "5200",
+      "max_ns": "6200"
+    },
+    {
+      "query_id": "bm25-repeat",
+      "mode": "bm25",
+      "query": "cache cache latency",
+      "candidate_documents": "5",
+      "matched_documents": "5",
+      "match_occurrences": "11",
+      "ranked_ids": "d09|d10|d01|d11|d03",
+      "median_ns": "30300",
+      "min_ns": "29600",
+      "max_ns": "35600"
+    },
+    {
+      "query_id": "empty",
+      "mode": "bm25",
+      "query": "...",
+      "candidate_documents": "0",
+      "matched_documents": "0",
+      "match_occurrences": "0",
+      "ranked_ids": "",
+      "median_ns": "1900",
+      "min_ns": "1800",
+      "max_ns": "2700"
+    },
+    {
+      "query_id": "absent",
+      "mode": "phrase",
+      "query": "absent phrase",
+      "candidate_documents": "0",
+      "matched_documents": "0",
+      "match_occurrences": "0",
+      "ranked_ids": "",
+      "median_ns": "4900",
+      "min_ns": "4800",
+      "max_ns": "5900"
+    },
+    {
+      "query_id": "no-substring",
+      "mode": "term",
+      "query": "arch",
+      "candidate_documents": "0",
+      "matched_documents": "0",
+      "match_occurrences": "0",
+      "ranked_ids": "",
+      "median_ns": "3200",
+      "min_ns": "3100",
+      "max_ns": "3800"
+    }
+  ]
+}

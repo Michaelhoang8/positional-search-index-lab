@@ -1,0 +1,2 @@
+# Optional report review only; the implementation and experiments use stdlib.
+playwright==1.65.2

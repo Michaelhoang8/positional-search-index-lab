@@ -1,0 +1,66 @@
+"""Owned synthetic documents and queries; no human relevance judgments."""
+
+CORPUS = [
+    {
+        "id": "d01",
+        "title": "Cache behavior",
+        "text": "A cache reduces repeated reads. Cache eviction changes hit rates; cache latency still depends on storage and workload.",
+    },
+    {
+        "id": "d02",
+        "title": "Database recovery",
+        "text": "A database journal records changes before commit. Recovery replays the journal; isolation and consistency are separate concerns.",
+    },
+    {
+        "id": "d03",
+        "title": "Trace records",
+        "text": "A trace links request spans. Logs record events, while latency measurements describe elapsed time. A trace is not a journal.",
+    },
+    {
+        "id": "d04",
+        "title": "Retrieval models",
+        "text": "A search engine can rank matching documents. A positional index supports phrase queries; a vector index uses a different representation.",
+    },
+    {
+        "id": "d05",
+        "title": "Unicode examples",
+        "text": "Straße and STRASSE share a case-folded token. The ligature ﬃ expands. A\u030angstro\u0308m units retain their original spans. ΟΣ and ος fold together.",
+    },
+    {"id": "d06", "title": "Empty document", "text": ""},
+    {"id": "d07", "title": "Repeated positions", "text": "echo echo echo. a a a a."},
+    {
+        "id": "d08",
+        "title": "Punctuation boundaries",
+        "text": "A search-engine indexes text; search, engine is also token-adjacent. Prefix sea does not equal search.",
+    },
+    {"id": "d09", "title": "Equal-score document A", "text": "cache latency"},
+    {"id": "d10", "title": "Equal-score document B", "text": "cache latency"},
+    {
+        "id": "d11",
+        "title": "Code-point offsets",
+        "text": "📦 cache 🧭 routing; a cache can serve local reads.",
+    },
+    {
+        "id": "d12",
+        "title": "Numeric tokens",
+        "text": "Metrics: 99.9 percent; s3_bucket and s3-bucket split at punctuation. Can't becomes can and t.",
+    },
+]
+
+QUERIES = [
+    {"id": "bm25-cache", "mode": "bm25", "query": "cache latency"},
+    {"id": "term-cache", "mode": "term", "query": "cache"},
+    {"id": "and-cache", "mode": "and", "query": "cache latency"},
+    {"id": "or-journal", "mode": "or", "query": "journal trace"},
+    {"id": "phrase-search", "mode": "phrase", "query": "search engine"},
+    {"id": "phrase-overlap", "mode": "phrase", "query": "echo echo"},
+    {"id": "phrase-repeat", "mode": "phrase", "query": "a a"},
+    {"id": "unicode-street", "mode": "term", "query": "strasse"},
+    {"id": "unicode-ligature", "mode": "term", "query": "ffi"},
+    {"id": "unicode-composed", "mode": "phrase", "query": "ångström units"},
+    {"id": "unicode-sigma", "mode": "term", "query": "οσ"},
+    {"id": "bm25-repeat", "mode": "bm25", "query": "cache cache latency"},
+    {"id": "empty", "mode": "bm25", "query": "..."},
+    {"id": "absent", "mode": "phrase", "query": "absent phrase"},
+    {"id": "no-substring", "mode": "term", "query": "arch"},
+]

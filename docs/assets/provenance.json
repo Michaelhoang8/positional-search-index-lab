@@ -1,0 +1,29 @@
+{
+  "rendered_utc": "2026-11-21T02:21:52.124698+00:00",
+  "source_sha256_lf": "5389244ae2cf0402a27b05336f2f1e186575d1899ca0510112206748b46d2a17",
+  "inputs": {
+    "results/published/corpus.json": "6b3462740f417617a954d546f83fe279486a26b5575239b6fdf36340de82760e",
+    "results/published/environment.json": "451603b20277de2638ec74894ac7aa225bd41df86bd61eb604504b467e1bffc7",
+    "results/published/index.json": "656511dfe8e34efde70a14487fcc1ace78fcfdf2584835ce3e6ab3e7c2ac9dab",
+    "results/published/manifest.json": "72e5e6abfc767a9cc4829f281283797267964215037a575b32a27dfeacaa90ac",
+    "results/published/measurements.csv": "c259b71388de5d317b32291bd052d748ab7ecd954babb0ec2f2c938e56e38954",
+    "results/published/postings.csv": "a25577cb59cada9aa589aefd9e85c88f3907092331b7df947f6e3041fec7cbff",
+    "results/published/queries.json": "6f169cc4b5b0afeea6d29839a884b6b9781627340f1d57f320f5673f081a329f",
+    "results/published/results.json": "3fbd017a235382407740c65175b446697b8112db9e163fe347a7e0511ea4e32f",
+    "results/published/summary.csv": "feb9bdca202ae696e57a734d4612c05263d033234e0bdfffa7aa75bce4930746",
+    "results/scale/corpus.json": "bb0d6473661118ad05ea6081617ce3bbd30fae1f92c35ef4e63711486f760d78",
+    "results/scale/environment.json": "1f5b6f2a83a4df4e1d138c7abec76617940d176e140c5bcd94400f4f24262f48",
+    "results/scale/index.json": "53e8fa94ee4bc3a616c466a5e3ab4e00c7e0565e264e6f9d52e4a7152206f786",
+    "results/scale/manifest.json": "032d7f5514ddbcd44f40f317ab1299624090409647565b830ff41a5880ef6d52",
+    "results/scale/measurements.csv": "f61e804c8a19a0cab180a8d959d21410386865a5e2e49269b292d5a02b1f13fe",
+    "results/scale/queries.json": "baf858c87658cd2c6f7d4b2ddd51b3c38e02d9c48e4aa4d580eb2823f032e44b",
+    "results/scale/results.json": "8ee97bf1152ef30b9c74645c996b1f95d71c6b8f2519db8e26513a9e5fda289f",
+    "results/scale/summary.csv": "16802fd8a64a0b3a1fd51e16970d005fe7e6e3d5d38aa1344f398a0cb1eef194"
+  },
+  "outputs": {
+    "docs/report.html": "28ce177ed0149fa0a8a138fd1729ae5db9aa80a1ceacd5c3d1c358203fe8a0a0",
+    "docs/assets/postings.svg": "f41f0b4dc1ef90cca4b0ef661c72739f6759595d63c5130b9f9e42d8970c9838",
+    "docs/assets/explorer.json": "766e7c561da9ceb7b8553703d0b8a123d9cc935d086ec345af62d717214ad98d"
+  },
+  "rendering": "Standard-library HTML/SVG from preserved results; original strings highlighted using code-point arrays"
+}

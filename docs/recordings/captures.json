@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-21T02:27:26.205917+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Positional search index",
+  "report_sha256_normalized_text": "28ce177ed0149fa0a8a138fd1729ae5db9aa80a1ceacd5c3d1c358203fe8a0a0",
+  "video_sha256": "c0dd67edb70ad4190c595a4ccc584e9d64ecd101e9aa574c4c44af52aff75d42",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "section": "overview",
+      "sha256": "2a407436f56948d71c56353ce6b4a0be935fcd494fa13859337c6d2ddc26d77d"
+    },
+    {
+      "path": "docs/screenshots/02_results.png",
+      "section": "results",
+      "sha256": "9262d979f8119d6cf7945f687dc9d43250fc40a429b6d5af3d77b22ca5a5e9c8"
+    },
+    {
+      "path": "docs/screenshots/03_positions.png",
+      "section": "positions",
+      "sha256": "dadcdd1bfc264a68c777ecdf29fba073877229e8800f2e41a85aec960d457dba"
+    },
+    {
+      "path": "docs/screenshots/04_ranking.png",
+      "section": "ranking",
+      "sha256": "e105dca75e62332f8d64e412de48607209918a1524a8937eb5cb031e5196173c"
+    },
+    {
+      "path": "docs/screenshots/05_unicode.png",
+      "section": "unicode",
+      "sha256": "7267802c9c1c0596fcf10dbac92016f26c095ffa3732872d3b006dfca3b886e8"
+    },
+    {
+      "path": "docs/screenshots/06_validation.png",
+      "section": "validation",
+      "sha256": "7eb64b0bae1cd3bd2c32ca5c664d7092ac2a8993432b69497806539e080b9cea"
+    }
+  ]
+}

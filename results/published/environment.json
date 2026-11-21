@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-21T02:19:09.961535+00:00",
+  "completed_utc": "2026-11-21T02:19:09.969933+00:00",
+  "python": "3.13.17",
+  "unicode_database": "15.1.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256_lf": {
+    "src/searchlab/core.py": "8a1c68d6ea0fe9d94430fab500f680154d11cbdd510b2d86069208ad240579f3",
+    "src/searchlab/io.py": "48f6e4134333bac6386b4fcee1f3de530907cf6f5c37c1f95128160ca5d6209f",
+    "scripts/fixtures.py": "0e5f097300406944ceeda0765a47065f107109cce9ab4f0f3c5f61a0d461efaf",
+    "scripts/run_study.py": "21fd7ee062525b533f9088a63106530c2baaadec039c46cf87ee102bb10116a3"
+  },
+  "documents": 12,
+  "tokens": 152,
+  "unique_terms": 97,
+  "average_document_length": 12.666666666666666,
+  "corpus_json_bytes": 1860,
+  "index_json_bytes": 26708,
+  "timed_calls": 112,
+  "timing_scope": "Seven warmed in-memory builds and seven queries per case; query calls include tokenization, candidate selection, scores/explanations and highlights. File I/O and JSON serialization excluded. Fixed case order.",
+  "provenance": "Owned synthetic text and predetermined queries; no human relevance judgments, retrieval-quality evaluation or external corpus",
+  "seeds": "No random input generation in published study"
+}

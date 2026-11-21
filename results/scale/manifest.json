@@ -1,0 +1,37 @@
+[
+  {
+    "path": "corpus.json",
+    "bytes": 88071,
+    "sha256": "bb0d6473661118ad05ea6081617ce3bbd30fae1f92c35ef4e63711486f760d78"
+  },
+  {
+    "path": "environment.json",
+    "bytes": 1157,
+    "sha256": "1f5b6f2a83a4df4e1d138c7abec76617940d176e140c5bcd94400f4f24262f48"
+  },
+  {
+    "path": "index.json",
+    "bytes": 903960,
+    "sha256": "53e8fa94ee4bc3a616c466a5e3ab4e00c7e0565e264e6f9d52e4a7152206f786"
+  },
+  {
+    "path": "measurements.csv",
+    "bytes": 4198,
+    "sha256": "f61e804c8a19a0cab180a8d959d21410386865a5e2e49269b292d5a02b1f13fe"
+  },
+  {
+    "path": "queries.json",
+    "bytes": 800,
+    "sha256": "baf858c87658cd2c6f7d4b2ddd51b3c38e02d9c48e4aa4d580eb2823f032e44b"
+  },
+  {
+    "path": "results.json",
+    "bytes": 1603584,
+    "sha256": "8ee97bf1152ef30b9c74645c996b1f95d71c6b8f2519db8e26513a9e5fda289f"
+  },
+  {
+    "path": "summary.csv",
+    "bytes": 931,
+    "sha256": "16802fd8a64a0b3a1fd51e16970d005fe7e6e3d5d38aa1344f398a0cb1eef194"
+  }
+]

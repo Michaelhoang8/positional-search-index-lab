@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="370" viewBox="0 0 1120 370" role="img" aria-labelledby="title desc">
+<title id="title">Recorded postings and Boolean candidates</title><desc id="desc">Cache and latency postings with exact positions, then their intersection and union</desc>
+<rect width="1120" height="370" fill="#fbf9f4"/>
+<text x="35" y="42" font-family="Georgia,serif" font-size="27" fill="#642d3e">cache</text>
+<line x1="45" y1="73" x2="67" y2="73" stroke="#bfb5a5"/><text x="77" y="78" font-family="monospace" font-size="17" fill="#262522">d01 → [1, 5, 10]</text>
+<line x1="45" y1="119" x2="67" y2="119" stroke="#bfb5a5"/><text x="77" y="124" font-family="monospace" font-size="17" fill="#262522">d09 → [0]</text>
+<line x1="45" y1="165" x2="67" y2="165" stroke="#bfb5a5"/><text x="77" y="170" font-family="monospace" font-size="17" fill="#262522">d10 → [0]</text>
+<line x1="45" y1="211" x2="67" y2="211" stroke="#bfb5a5"/><text x="77" y="216" font-family="monospace" font-size="17" fill="#262522">d11 → [0, 3]</text>
+<text x="405" y="42" font-family="Georgia,serif" font-size="27" fill="#642d3e">latency</text>
+<line x1="415" y1="73" x2="437" y2="73" stroke="#bfb5a5"/><text x="447" y="78" font-family="monospace" font-size="17" fill="#262522">d01 → [11]</text>
+<line x1="415" y1="119" x2="437" y2="119" stroke="#bfb5a5"/><text x="447" y="124" font-family="monospace" font-size="17" fill="#262522">d03 → [9]</text>
+<line x1="415" y1="165" x2="437" y2="165" stroke="#bfb5a5"/><text x="447" y="170" font-family="monospace" font-size="17" fill="#262522">d09 → [1]</text>
+<line x1="415" y1="211" x2="437" y2="211" stroke="#bfb5a5"/><text x="447" y="216" font-family="monospace" font-size="17" fill="#262522">d10 → [1]</text>
+<line x1="735" y1="30" x2="735" y2="330" stroke="#d3c9bb"/>
+<text x="775" y="55" font-family="monospace" font-size="14" fill="#746b61">AND CANDIDATES</text>
+<text x="775" y="90" font-family="monospace" font-size="18" fill="#642d3e">d01, d09, d10</text>
+<text x="775" y="160" font-family="monospace" font-size="14" fill="#746b61">OR / BM25 CANDIDATES</text>
+<text x="775" y="195" font-family="monospace" font-size="18" fill="#642d3e">d01, d03, d09</text>
+<text x="775" y="227" font-family="monospace" font-size="18" fill="#642d3e">d10, d11</text>
+<text x="35" y="344" font-family="monospace" font-size="13" fill="#746b61">Lists contain zero-based token positions. Original character spans are stored separately.</text>
+</svg>
