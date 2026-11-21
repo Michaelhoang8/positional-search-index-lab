@@ -1,5 +1,7 @@
 # Positional search index lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/positional-search-index-lab/)**
+
 A source-built positional inverted index with **exact term, AND, OR and phrase queries**, plus **BM25 ranking with per-term explanations**. Every hit retains token positions and half-open character spans in the original text, including Unicode normalization expansions and overlapping phrases.
 
 The entire implementation, study and HTML/SVG report builder use the Python standard library. Documents and queries are owned synthetic fixtures. Code and documentation were created with AI assistance. There are no human relevance labels, external corpus, web crawler or search-quality claims.
